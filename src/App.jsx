@@ -1,17 +1,17 @@
 import React, {useState}from "react";
 import "./app.css";
-import CounterComp from "./component/CounterComp";
-import ExampleTwoComp from "./component/ExampleTwoComp";
-import ProductComp from "./component/ProductComp";
-import PropsEg from "./component/PropsEg";
-import PropsProduct from "./component/PropsProductComp";
-import PropsProductComp from "./component/PropsProductComp";
-import ApiCallWithBtn from "./component/ApiCallWithBtn";
-import LifeCycleFunComp from "./component/LifeCycleFunComp";
-import FormReact from "./component/FormReact";
-import ReactHookForm from "./component/ReactHookForm";
-import TodoList from "./component/TodoList.JSX";
-import ErrorHandling from "./component/ErrorHandling";
+// import CounterComp from "./component/CounterComp";
+// import ExampleTwoComp from "./component/ExampleTwoComp";
+// import ProductComp from "./component/ProductComp";
+// import PropsEg from "./component/PropsEg";
+// import PropsProduct from "./component/PropsProductComp";
+// import PropsProductComp from "./component/PropsProductComp";
+// import ApiCallWithBtn from "./component/ApiCallWithBtn";
+// import LifeCycleFunComp from "./component/LifeCycleFunComp";
+// import FormReact from "./component/FormReact";
+// import ReactHookForm from "./component/ReactHookForm";
+// import TodoList from "./component/TodoList.JSX";
+// import ErrorHandling from "./component/ErrorHandling";
 
 
 
@@ -63,7 +63,7 @@ function app(){
     {/* <ErrorHandling/> */}
     {/* <FormReact/>  */}
         {/* <ReactHookForm/> */}
-        <h2>sri</h2>
+        <h2>sri asma</h2>
         
         
      
