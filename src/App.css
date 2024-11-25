@@ -1,0 +1,36 @@
+/* h1{
+    color: blueviolet;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+} */
+h5{
+    color:azure;
+    font-size: large;
+    border-left:450px;
+    margin-right:350px;
+    background-color:#1982ac;
+    margin-left: 650px;
+    
+}
+img{
+    border-style:ridge;
+    border-color:aqua;
+    padding: 30px;
+    border-top-left-radius: 70px;
+    border-width: 20px;
+    background-color:beige;
+  margin-left: 650px;
+    
+}
+h2{
+    /* margin-left: 740px; */
+    color:black;
+    margin-left: 720px;
+}
+.jo{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
