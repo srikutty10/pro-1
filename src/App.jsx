@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useState}from "react";
-import "./app.css";
+// import "./app.css";
 // import CounterComp from "./component/CounterComp";
 // import ExampleTwoComp from "./component/ExampleTwoComp";
 // import ProductComp from "./component/ProductComp";
