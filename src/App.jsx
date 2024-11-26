@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useState}from "react";
 import "./app.css";
 // import CounterComp from "./component/CounterComp";
@@ -12,7 +13,6 @@ import "./app.css";
 // import ReactHookForm from "./component/ReactHookForm";
 // import TodoList from "./component/TodoList.JSX";
 // import ErrorHandling from "./component/ErrorHandling";
-// import 'bootstrap/dist/css/bootstrap.min.css';
 // import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 
 
@@ -41,7 +41,9 @@ function app(){
 //  ] )
        
     return(
-         <BrowserRouter>
+        <>
+
+     
         {/* <h1>srinithi</h1> */}
        {/* <CounterComp/>  */}
        {/* <ExampleTwoComp/> */}
@@ -70,8 +72,9 @@ function app(){
             <Route  path="/error" element={<ErrorHandling/>} />
         </Routes> */}
         <h1>Sri</h1>
+        </>
        
-</BrowserRouter>
+// {/* </BrowserRouter> */}
         
  )}
 export default app;
