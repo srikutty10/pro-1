@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useState}from "react";
-// import "./app.css";
+import "./app.css";
 // import CounterComp from "./component/CounterComp";
 // import ExampleTwoComp from "./component/ExampleTwoComp";
 // import ProductComp from "./component/ProductComp";
@@ -71,7 +71,7 @@ function app(){
             <Route  path="/hookform" element={<ReactHookForm/>} />
             <Route  path="/error" element={<ErrorHandling/>} />
         </Routes> */}
-        <h1>Sri asma</h1>
+        {/* <h1>Sri asma</h1> */}
         </>
        
 // {/* </BrowserRouter> */}
