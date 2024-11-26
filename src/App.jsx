@@ -1,23 +1,19 @@
 import React, {useState}from "react";
 import "./app.css";
-// import CounterComp from "./component/CounterComp";
-// import ExampleTwoComp from "./component/ExampleTwoComp";
-// import ProductComp from "./component/ProductComp";
-// import PropsEg from "./component/PropsEg";
-// import PropsProduct from "./component/PropsProductComp";
-// import PropsProductComp from "./component/PropsProductComp";
-// import ApiCallWithBtn from "./component/ApiCallWithBtn";
-// import LifeCycleFunComp from "./component/LifeCycleFunComp";
-// import FormReact from "./component/FormReact";
-// import ReactHookForm from "./component/ReactHookForm";
-// import TodoList from "./component/TodoList.JSX";
-// import ErrorHandling from "./component/ErrorHandling";
-
-
-
-
-
-
+import CounterComp from "./component/CounterComp";
+import ExampleTwoComp from "./component/ExampleTwoComp";
+import ProductComp from "./component/ProductComp";
+import PropsEg from "./component/PropsEg";
+import PropsProduct from "./component/PropsProductComp";
+import PropsProductComp from "./component/PropsProductComp";
+import ApiCallWithBtn from "./component/ApiCallWithBtn";
+import LifeCycleFunComp from "./component/LifeCycleFunComp";
+import FormReact from "./component/FormReact";
+import ReactHookForm from "./component/ReactHookForm";
+import TodoList from "./component/TodoList.JSX";
+import ErrorHandling from "./component/ErrorHandling";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 
 
 function app(){
@@ -45,7 +41,7 @@ function app(){
 //  ] )
        
     return(
-         <>
+         <BrowserRouter>
         {/* <h1>srinithi</h1> */}
        {/* <CounterComp/>  */}
        {/* <ExampleTwoComp/> */}
@@ -59,19 +55,23 @@ function app(){
        {/* <ApiCallWithBtn/> */}
        {/* <LifeCycleFunComp/> */}
        
-    {/* <TodoList/> */}
-    {/* <ErrorHandling/> */}
-    {/* <FormReact/>  */}
-        {/* <ReactHookForm/> */}
-        <h2>sri asma</h2>
+    {/* <TodoList/>  */}
+    {/* <ErrorHandling/>
+    <FormReact/> 
+        <ReactHookForm/> */}
+        <div className="m-5">
+           < Link to="/">home</Link>
+           < Link to="/hookform">hookform</Link>
+           < Link to="/error">error</Link>
+        </div>
+        <Routes>
+            <Route path="/" element={<FormReact/>} />
+            <Route  path="/hookform" element={<ReactHookForm/>} />
+            <Route  path="/error" element={<ErrorHandling/>} />
+        </Routes>
+       
+</BrowserRouter>
         
-        
-     
-        </>
-        
- )
- }
-    
-
+ )}
 export default app;
 
