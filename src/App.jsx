@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useState}from "react";
 import "./app.css";
+import TodoList from "./component/TodoList.JSX";
 // import CounterComp from "./component/CounterComp";
 // import ExampleTwoComp from "./component/ExampleTwoComp";
 // import ProductComp from "./component/ProductComp";
@@ -11,7 +12,6 @@ import "./app.css";
 // import LifeCycleFunComp from "./component/LifeCycleFunComp";
 // import FormReact from "./component/FormReact";
 // import ReactHookForm from "./component/ReactHookForm";
-import TodoList from "./component/TodoList.JSX";
 // import ErrorHandling from "./component/ErrorHandling";
 // import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 
@@ -57,7 +57,7 @@ function app(){
        {/* <ApiCallWithBtn/> */}
        {/* <LifeCycleFunComp/> */}
        
-    <TodoList/> 
+    
     {/* <ErrorHandling/>
     <FormReact/> 
         <ReactHookForm/> */}
@@ -72,6 +72,7 @@ function app(){
             <Route  path="/error" element={<ErrorHandling/>} />
         </Routes> */}
         {/* <h1>Sri asma</h1> */}
+        <TodoList/> 
         </>
        
 // {/* </BrowserRouter> */}
